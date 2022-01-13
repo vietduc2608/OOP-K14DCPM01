@@ -3,47 +3,78 @@ package oo.Day_2;
 public class SinhVienGDU {
     private int maSV;
     private String hoTen;
-    private String diaChi;
- 
-    public SinhVienGDU() {}
+    private String gioiTinh;
+    private float tuoi;
+    private String Khoa;
+    private double diemTB;
+
     
-    public SinhVienGDU(int maSV, String hoTen, String diaChi) {
+    
+    public SinhVienGDU(int maSV, String hoTen, String gioiTinh, float tuoi, String khoa, double diemTB) {
         this.maSV = maSV;
         this.hoTen = hoTen;
-        this.diaChi = diaChi;
+        this.gioiTinh = gioiTinh;
+        this.tuoi = tuoi;
+        Khoa = khoa;
+        this.diemTB = diemTB;
     }
 
-    //--------------begin getter and setter--------------------
+    public SinhVienGDU() {}
+    
     public int getMaSV() {
         return maSV;
     }
- 
+
     public void setMaSV(int maSV) {
         this.maSV = maSV;
     }
- 
-    public String getHoten() {
+
+    public String getHoTen() {
         return hoTen;
     }
- 
-    public void setHoten(String hoten) {
-        this.hoTen = hoten;
-    }
- 
-    public String getDiaChi() {
-        return diaChi;
-    }
- 
-    public void setDiaChi(String diaChi) {
-        this.diaChi = diaChi;
-    }
-    //--------------end getter and setter--------------------
 
+    public void setHoTen(String hoTen) {
+        this.hoTen = hoTen;
+    }
+
+    public String getGioiTinh() {
+        return gioiTinh;
+    }
+
+    public void setGioiTinh(String gioiTinh) {
+        this.gioiTinh = gioiTinh;
+    }
+
+    public float getTuoi() {
+        return tuoi;
+    }
+
+    public void setTuoi(float tuoi) {
+        this.tuoi = tuoi;
+    }
+
+    public String getKhoa() {
+        return Khoa;
+    }
+
+    public void setKhoa(String khoa) {
+        Khoa = khoa;
+    }
+
+    public double getDiemTB() {
+        return diemTB;
+    }
+
+    public void setDiemTB(double diemTB) {
+        this.diemTB = diemTB;
+    }
+
+    //--------------begin getter and setter--------------------
 
     public void show(){
         System.out.println("======Thông Tin Sinh Viên======");
-        System.out.println("Mã Sinh Viên: "+maSV  +"Họ Tên: "+hoTen +"Địa chỉ: "+diaChi);
-        System.out.printf("%-5d %-20s %-15s\n", maSV, hoTen, diaChi);
+        System.out.printf("%-20S %-20S %-20S %-20S %-20S %-45S\n", "Mã Sinh Viên", "Họ Tên", "Giới Tính", "Tuổi", "Khoa", "Điểm Trung Bình");
+        System.out.printf("%-5d %-20s %-15s %-20s %-20s %-20s\n", maSV, hoTen, gioiTinh, tuoi, Khoa, diemTB);
     }
     
 }
