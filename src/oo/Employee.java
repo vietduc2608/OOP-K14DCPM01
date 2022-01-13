@@ -6,6 +6,30 @@ public class Employee {
     int employee_id;
     String nameEmployee, addressEmployee;
 
+    public int getEmployee_id() {
+        return employee_id;
+    }
+
+    public void setEmployee_id(int employee_id) {
+        this.employee_id = employee_id;
+    }
+
+    public String getNameEmployee() {
+        return nameEmployee;
+    }
+
+    public void setNameEmployee(String nameEmployee) {
+        this.nameEmployee = nameEmployee;
+    }
+
+    public String getAddressEmployee() {
+        return addressEmployee;
+    }
+
+    public void setAddressEmployee(String addressEmployee) {
+        this.addressEmployee = addressEmployee;
+    }
+
     Scanner input = new Scanner(System.in);
 
     void Nhap(){
