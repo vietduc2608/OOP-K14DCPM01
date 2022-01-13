@@ -16,3 +16,12 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+bin/oo/Account.class
+bin/oo/Account.class
+bin/oo/Account.class
+src/oo/Account.java
+bin/oo/Account.class
+src/oo/Customer.java
+src/oo/Employee.java
+src/oo/Main.java
+src/oo/SinhVienGDU.java
