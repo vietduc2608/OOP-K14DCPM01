@@ -2,31 +2,25 @@ package oo;
 import java.util.Scanner;
 
 public class Customer {
-    int customer_id = 1234567;
-    int customer_banlance = 0;
+    int customer_id;
+    String name, address;
 
     Scanner input = new Scanner(System.in); 
-    Account account = new Account();
-    
 
-    void withdraw() {
-        System.out.print("Nhap vao so tien can rut > ");
-        int withdrawAmount = input.nextInt();
-        customer_banlance -= withdrawAmount;// thao tac len data
-        // account_banlance = account_banlance - withdrawAmount;
-    }
 
-    void depoist() {
-        // gui tien: deposit
-        System.out.print("Nhap vao so tien gui > ");
-        int depositAmount = 0;
-        depositAmount = input.nextInt();
-        customer_banlance += depositAmount;// thao tac len data
+    void Nhap(){
+        System.out.println("Nhap id Khach Hang");
+        customer_id = input.nextInt();
+        System.out.println("Nhap Ten Khach Hang: ");
+        name = input.nextLine();
+        System.out.println("Nhap dia chi: ");
+        address = input.nextLine();
     }
 
     void show() {
         System.out.println("thong tin tai khoan");
-        System.out.println("Account number: " + customer_id);
-        System.out.println("Account balance: " + customer_banlance);
+        System.out.println("Account id: " + customer_id);
+        System.out.println("Account name: " +name);
+        System.out.println("Account address: "+address);
     }
 }
