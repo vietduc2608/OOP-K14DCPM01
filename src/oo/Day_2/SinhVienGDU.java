@@ -8,18 +8,16 @@ public class SinhVienGDU {
     private String Khoa;
     private double diemTB;
 
-    // attribute (thuộc tính) -data - state
+    // attribute (thuộc tính) - data - state
     // method - functions - behavior (hành vi)
-    // class là khuôn mẫu để tạo object chứ  ko phải là object-được sinh ra từ class
-    // 1 class có thể tạo ra nhiều object
-    // nhiều object đc sinh ra tử 1 class
-    
+
+
     public SinhVienGDU(int maSV, String hoTen, String gioiTinh, float tuoi, String khoa, double diemTB) {
         this.maSV = maSV;
         this.hoTen = hoTen;
         this.gioiTinh = gioiTinh;
         this.tuoi = tuoi;
-        Khoa = khoa;
+        this.Khoa = khoa;
         this.diemTB = diemTB;
     }
 
@@ -86,11 +84,12 @@ public class SinhVienGDU {
         System.out.println("Đăng Ký Môn......");
     }
     
+    public void showData(){
+        System.out.println("============================================Thông Tin Sinh Viên===============================================");
+        System.out.printf("%-20S %-20S %-20S %-20S %-20S %-45S\n", "Mã Sinh Viên", "Họ Tên", "Giới Tính", "Tuổi", "Khoa", "Điểm Trung Bình");
+    }
 
     public void show(){
-        System.out.println("======Thông Tin Sinh Viên======");
-        System.out.printf("%-20S %-20S %-20S %-20S %-20S %-45S\n", "Mã Sinh Viên", "Họ Tên", "Giới Tính", "Tuổi", "Khoa", "Điểm Trung Bình");
         System.out.printf("%-5d %-20s %-15s %-20s %-20s %-20s\n", this.maSV, this.hoTen, this.gioiTinh, this.tuoi, this.Khoa, this.diemTB);
     }
-    
 }
