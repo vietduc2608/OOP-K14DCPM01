@@ -29,7 +29,7 @@ public class HinhTron {
         System.out.println("Xoay hình tròn 360 độ!");
     }
 
-    void playsoundHT(){
+    public void playsoundHT(){
         System.out.println("shiba.....shiba.....");
     }
 }
