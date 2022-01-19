@@ -1,84 +1,89 @@
 package oo.Day_2;
 
 public class SinhVienGDU {
-    private int maSV;
-    private String hoTen;
-    private String gioiTinh;
-    private float tuoi;
-    private String Khoa;
-    private double diemTB;
+    int maSV;
+    String hoTen;
+    String gioiTinh;
+    float tuoi;
+    String Khoa;
+    double diemTB;
 
-    // attribute (thuộc tính) - data - state
-    // method - functions - behavior (hành vi)
-
+    // attribute (thuộc tính) - data - state (trạng thái)
+    // method (phương thức) - functions - behavior (hành vi)
+    
+    public SinhVienGDU(String hoTen, float tuoi){
+        this.hoTen = hoTen;
+        this.tuoi = tuoi;
+    }
 
     public SinhVienGDU(int maSV, String hoTen, String gioiTinh, float tuoi, String khoa, double diemTB) {
+        this(hoTen, tuoi); // phải được đặt ở dòng đầu tiên
         this.maSV = maSV;
-        this.hoTen = hoTen;
+        // this.hoTen = hoTen;
         this.gioiTinh = gioiTinh;
-        this.tuoi = tuoi;
+        // this.tuoi = tuoi;
         this.Khoa = khoa;
         this.diemTB = diemTB;
     }
 
     public SinhVienGDU() {}
     
-    public int getMaSV() {
-        return maSV;
-    }
+    // public int getMaSV() {
+    //     return maSV;
+    // }
 
-    public void setMaSV(int maSV) {
-        this.maSV = maSV;
-    }
+    // public void setMaSV(int maSV) {
+    //     this.maSV = maSV;
+    // }
 
-    public String getHoTen() {
-        return hoTen;
-    }
+    // public String getHoTen() {
+    //     return hoTen;
+    // }
 
-    public void setHoTen(String hoTen) {
-        this.hoTen = hoTen;
-    }
+    // public void setHoTen(String hoTen) {
+    //     this.hoTen = hoTen;
+    // }
 
-    public String getGioiTinh() {
-        return gioiTinh;
-    }
+    // public String getGioiTinh() {
+    //     return gioiTinh;
+    // }
 
-    public void setGioiTinh(String gioiTinh) {
-        this.gioiTinh = gioiTinh;
-    }
+    // public void setGioiTinh(String gioiTinh) {
+    //     this.gioiTinh = gioiTinh;
+    // }
 
-    public float getTuoi() {
-        return tuoi;
-    }
+    // public float getTuoi() {
+    //     return tuoi;
+    // }
 
-    public void setTuoi(float tuoi) {
-        this.tuoi = tuoi;
-    }
+    // public void setTuoi(float tuoi) {
+    //     this.tuoi = tuoi;
+    // }
 
-    public String getKhoa() {
-        return Khoa;
-    }
+    // public String getKhoa() {
+    //     return Khoa;
+    // }
 
-    public void setKhoa(String khoa) {
-        Khoa = khoa;
-    }
+    // public void setKhoa(String khoa) {
+    //     Khoa = khoa;
+    // }
 
-    public double getDiemTB() {
-        return diemTB;
-    }
+    // public double getDiemTB() {
+    //     return diemTB;
+    // }
 
-    public void setDiemTB(double diemTB) {
-        this.diemTB = diemTB;
-    }
+    // public void setDiemTB(double diemTB) {
+    //     this.diemTB = diemTB;
+    // }
 
-    //--------------begin getter and setter--------------------
-    void hoc(){
-        System.out.println("Hoc.....");
-    }
+    // //--------------begin getter and setter--------------------
+    // void hoc(){
+    //     System.out.println("Hoc.....");
+    // }
 
-    void thi(){
-        System.out.println("Thi.....");
-    }
+    // void thi(){
+    //     System.out.println("Thi.....");
+    // }
 
     void dangKyMonHoc(){
         System.out.println("Đăng Ký Môn......");
