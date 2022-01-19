@@ -28,7 +28,7 @@ public class TamGiac {
         System.out.println("Xoay hình tam giác 360 độ!");
     }
 
-    public void playTG(){
+    public void playsoundTG(){
         System.out.println("gâu...gâu....gâu....");
     }   
 }

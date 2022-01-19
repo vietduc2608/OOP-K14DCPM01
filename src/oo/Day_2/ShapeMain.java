@@ -4,15 +4,15 @@ public class ShapeMain {
     public static void main(String[] args) {
         HinhVuong hv = new HinhVuong();
         hv.rotateHV();
-        hv.playHV();
+        hv.playsoundHV();
 
         HinhTron ht = new HinhTron();
         ht.rotateHT();
-        ht.playHT();
+        ht.playsoundHT();
         
         TamGiac tg = new TamGiac();
         tg.rotateTG();
-        tg.playTG();
+        tg.playsoundTG();
 
     }
 }

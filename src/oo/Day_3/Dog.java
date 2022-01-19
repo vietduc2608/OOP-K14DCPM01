@@ -31,7 +31,7 @@ public class Dog {
         this.size = size;
     }
     
-    public void  bard(){
+    public void bark(){
         if(size < 14){
             System.out.println("Ruff! Ruff!");
         }
@@ -47,7 +47,7 @@ public class Dog {
     
     public void run()
     {
-        System.out.println("Runing...");
-        this.bard();
+        System.out.println("Running...");
+        this.bark();
     }
 }

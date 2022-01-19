@@ -29,7 +29,7 @@ public class HinhVuong {
         System.out.println("Xoay hình vuông 360 độ!");
     }
 
-    public void playHV(){
+    public void playsoundHV(){
         System.out.println("cục tác...cục tác....");
     }
 
