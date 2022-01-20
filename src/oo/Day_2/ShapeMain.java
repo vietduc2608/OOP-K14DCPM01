@@ -6,7 +6,7 @@ public class ShapeMain {
         hv.rotateHV();
         hv.playsoundHV();
 
-        HinhTron ht = new HinhTron("hinhTrong.aif");
+        HinhTron ht = new HinhTron("hinhTron.aif");
         ht.rotateHT();
         ht.playsoundHT();
         
@@ -14,5 +14,8 @@ public class ShapeMain {
         tg.rotateTG();
         tg.playsoundTG();
 
+        Amoeba amoeba = new Amoeba("amoeba.hif");
+        amoeba.rotate();
+        amoeba.playSound();
     }
 }
