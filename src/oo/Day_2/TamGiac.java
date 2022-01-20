@@ -17,11 +17,11 @@ public class TamGiac {
 
     public TamGiac(){}
 
-    public void TamGiac(){
-        System.out.println("    *    ");
-        System.out.println(" *     * ");
-        System.out.println("*********");
-    }
+    // public void TamGiac(){
+    //     System.out.println("    *    ");
+    //     System.out.println(" *     * ");
+    //     System.out.println("*********");
+    // }
 
     public void rotateTG(){
         System.out.println("Xoay hình tam giác 360 độ!");

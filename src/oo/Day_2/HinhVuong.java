@@ -18,11 +18,11 @@ public class HinhVuong {
 
     public HinhVuong(){}
 
-    public void HinhVuong(){
-        System.out.println("------");
-        System.out.println("-    -");
-        System.out.println("------");
-    }
+    // public void HinhVuong(){
+    //     System.out.println("------");
+    //     System.out.println("-    -");
+    //     System.out.println("------");
+    // }
 
     public void rotateHV(){
         System.out.println("Xoay hình vuông 360 độ!");

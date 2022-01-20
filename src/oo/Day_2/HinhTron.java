@@ -17,13 +17,13 @@ public class HinhTron {
 
     public HinhTron(){}
 
-    public void HinhTron(){
-        System.out.println("   -------   ");
-        System.out.println(" -         - ");
-        System.out.println("-           -");
-        System.out.println(" -         - ");
-        System.out.println("   -------   ");
-    }
+    // public void HinhTron(){
+    //     System.out.println("   -------   ");
+    //     System.out.println(" -         - ");
+    //     System.out.println("-           -");
+    //     System.out.println(" -         - ");
+    //     System.out.println("   -------   ");
+    // }
 
     public void rotateHT(){
         System.out.println("Xoay hình tròn 360 độ!");
