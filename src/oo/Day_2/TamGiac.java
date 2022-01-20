@@ -28,6 +28,6 @@ public class TamGiac {
     }
 
     public void playsoundTG(){
-        System.out.println("Play sound: " +this.soundFile);
+        System.out.println("Play sound: " +this.soundFile + " music");
     }   
 }
