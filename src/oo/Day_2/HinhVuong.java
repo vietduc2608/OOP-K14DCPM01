@@ -29,7 +29,7 @@ public class HinhVuong {
     }
 
     public void playsoundHV(){
-        System.out.println("cục tác...cục tác....");
+        System.out.println("Play sound: " +this.soundFile);
     }
 
 }

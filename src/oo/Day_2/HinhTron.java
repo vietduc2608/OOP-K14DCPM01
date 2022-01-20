@@ -30,6 +30,6 @@ public class HinhTron {
     }
 
     public void playsoundHT(){
-        System.out.println("shiba.....shiba.....");
+        System.out.println("Play sound: " +this.soundFile);
     }
 }
