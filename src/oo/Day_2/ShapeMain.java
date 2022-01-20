@@ -14,7 +14,7 @@ public class ShapeMain {
         tg.rotateTG();
         tg.playsoundTG();
 
-        Amoeba amoeba = new Amoeba("amoeba.hif");
+        Amoeba amoeba = new Amoeba("amoeba.hif", 2, 4);
         amoeba.rotate();
         amoeba.playSound();
     }
