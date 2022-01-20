@@ -85,9 +85,9 @@ public class SinhVienGDU {
     //     System.out.println("Thi.....");
     // }
 
-    void dangKyMonHoc(){
-        System.out.println("Đăng Ký Môn......");
-    }
+    // void dangKyMonHoc(){
+    //     System.out.println("Đăng Ký Môn......");
+    // }
     
     public void showData(){
         System.out.println("============================================Thông Tin Sinh Viên===============================================");

@@ -1,20 +1,19 @@
 package oo.Day_2;
 
 public class HinhVuong {
-    String sound;
+    String soundFile;
 
-    public HinhVuong(String sound) {
-        this.sound = sound;
-    }
-    
-
-    public String getSound() {
-        return sound;
+ 
+    public HinhVuong(String soundFile) {
+        this.soundFile = soundFile;
     }
 
+    public String getSoundFile() {
+        return soundFile;
+    }
 
-    public void setSound(String sound) {
-        this.sound = sound;
+    public void setSoundFile(String soundFile) {
+        this.soundFile = soundFile;
     }
 
     public HinhVuong(){}

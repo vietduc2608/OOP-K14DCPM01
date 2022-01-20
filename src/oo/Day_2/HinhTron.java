@@ -1,18 +1,18 @@
 package oo.Day_2;
 
 public class HinhTron {
-    String sound;
+    String soundFile;
    
-    public HinhTron(String sound) {
-        this.sound = sound;
+    public HinhTron(String soundFile) {
+        this.soundFile = soundFile;
     }
 
-    public String getSound() {
-        return sound;
+    public String getSoundFile() {
+        return soundFile;
     }
 
-    public void setSound(String sound) {
-        this.sound = sound;
+    public void setSoundFile(String soundFile) {
+        this.soundFile = soundFile;
     }
 
     public HinhTron(){}

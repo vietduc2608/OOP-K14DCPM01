@@ -1,19 +1,18 @@
 package oo.Day_2;
 
 public class TamGiac {
-    String sound;
+    String soundFile;
 
-    public TamGiac(String sound) {
-        this.sound = sound;
-    }
-    
-    public String getSound() {
-        return sound;
+    public TamGiac(String soundFile) {
+        this.soundFile = soundFile;
     }
 
+    public String getSoundFile() {
+        return soundFile;
+    }
 
-    public void setSound(String sound) {
-        this.sound = sound;
+    public void setSoundFile(String soundFile) {
+        this.soundFile = soundFile;
     }
 
     public TamGiac(){}
