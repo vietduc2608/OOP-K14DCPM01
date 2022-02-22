@@ -15,8 +15,7 @@ public class Bank_NonStructured {
         //data Customer
 
         //hanh dong thao tac len data
-        Scanner input;
-        input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         //gui tien: deposit
         System.out.print("Nhap vao so tien gui > ");
