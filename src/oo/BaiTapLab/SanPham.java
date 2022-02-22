@@ -67,7 +67,7 @@ public class SanPham {
 
     public void inThongTin(){
         System.out.println("==============================THÔNG TIN SẢN PHẨM=================================");
-        System.out.printf("%-20S %-20S %-20S %-20S\n", "tên sản phẩm", "đơn giá", "giảm giá", "thuế nhập nhẩu");
+        System.out.printf("%-20S %-20S %-20S %-20S\n", "tên sản phẩm", "đơn giá", "giảm giá", "thuế nhập khẩu");
     }
 
     public void NhapThem(){
@@ -81,12 +81,11 @@ public class SanPham {
     }
 
     public void xuatThongTin(){
-        System.out.printf("%-20S %-20S %-20S %-20S\n", "tên sản phẩm", "đơn giá", "giảm giá", "thuế nhập nhẩu");
+        System.out.printf("%-20S %-20S %-20S %-20S\n", "tên sản phẩm", "đơn giá", "giảm giá", "thuế nhập khẩu");
         for (SanPham sanPham : list) {
             sanPham.xuat();
         }
+        
     }
     
-
-   
 }
