@@ -1,7 +1,7 @@
 package oo.Day_2;
 
 public class HinhTron {
-    String soundFile;
+    private String soundFile;
    
     public HinhTron(String soundFile) {
         this.soundFile = soundFile;

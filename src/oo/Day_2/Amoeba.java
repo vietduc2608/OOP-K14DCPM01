@@ -1,8 +1,8 @@
 package oo.Day_2;
 
 public class Amoeba {
-    String soundFile;
-    double xPoint, yPoint;
+    private String soundFile;
+    private double xPoint, yPoint;
 
     public Amoeba(String soundFile, double xPoint, double yPoint) {
         this.soundFile = soundFile;

@@ -1,7 +1,7 @@
 package oo.Day_2;
 
 public class HinhVuong {
-    String soundFile;
+    private String soundFile;
 
  
     public HinhVuong(String soundFile) {

@@ -1,7 +1,7 @@
 package oo.Day_2;
 
 public class TamGiac {
-    String soundFile;
+    private String soundFile;
 
     public TamGiac(String soundFile) {
         this.soundFile = soundFile;
