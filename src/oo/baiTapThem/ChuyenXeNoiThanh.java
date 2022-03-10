@@ -36,7 +36,7 @@ public class ChuyenXeNoiThanh extends ThongTinChuyenXe{
 
     @Override
     public String toString() {
-        return " ChuyenXeNoiThanh [soKmDiDuoc=" + soKmDiDuoc + ", soTuyen=" + soTuyen  + "]" + " " + super.toString() + "]";
+        return "ChuyenXeNoiThanh [soKmDiDuoc=" + soKmDiDuoc + ", soTuyen=" + soTuyen  + "]" + " " + super.toString() + "]";
     }
     
 }

@@ -1,6 +1,5 @@
 package oo.baiTapThem;
 
-import java.util.Scanner;
 
 public class ChuyenXeNgoaiThanh extends ThongTinChuyenXe{
     private String noiDen;
@@ -41,7 +40,7 @@ public class ChuyenXeNgoaiThanh extends ThongTinChuyenXe{
 
     @Override
     public String toString() {
-        return " ChuyenXeNgoaiThanh [noiDen=" + noiDen + ", soNgayDiDuoc=" + soNgayDiDuoc + "]" + " " + super.toString() + "]";
+        return "ChuyenXeNgoaiThanh [Noi Den: " + noiDen + ", So Ngay Di Duoc: " + soNgayDiDuoc + "]" + " " + super.toString() + "]";
     }
     
 

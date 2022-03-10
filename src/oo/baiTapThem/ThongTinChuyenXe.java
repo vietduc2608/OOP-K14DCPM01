@@ -67,7 +67,7 @@ public class ThongTinChuyenXe {
 
     @Override
     public String toString() {
-        return " ThongTinChuyenXe [doanhThu=" + doanhThu + ", hoTenTaiXe=" + hoTenTaiXe + ", maSoChuyenXe="
-                + maSoChuyenXe + ", soXe=" + soXe  + "]";
+        return "ThongTinChuyenXe [Doanh Thu=: " + doanhThu + ", Ho Ten Tai Xe: " + hoTenTaiXe + ", Ma So Chuyen Xe: "
+                + maSoChuyenXe + ", So Xe: " + soXe  + "]";
     }
 }
