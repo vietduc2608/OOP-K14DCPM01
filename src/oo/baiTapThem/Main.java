@@ -7,9 +7,9 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         double doanhThuNoiTHanh = 0, doanhThuNgoaiThanh = 0;
+
         System.out.println("=====CHUYEN XE NGOAI THANH=====");
         ArrayList<ThongTinChuyenXe> chuyenXeNgoaiThanh = new ArrayList<>();
-        // ChuyenXeNgoaiThanh chuyenXeNgoaiThanh = new ChuyenXeNgoaiThanh();
         System.out.println("Nhap so luong xe: ");
         int n = sc.nextInt();
         System.out.println("Nhap thong tin xe: ");
@@ -37,7 +37,7 @@ public class Main {
         System.out.println(chuyenXeNoiThanh.toString());
         }
 
-        System.out.println("=====Doanh thu tung chuyen xe======");
+        System.out.println("=======DOANH THU TUNG CHUYEN XE========");
         System.out.println("Danh thu ngoai thanh: " + doanhThuNgoaiThanh);
         System.out.println("Doanh thu noi thanh: " + doanhThuNoiTHanh);
     }

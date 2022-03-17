@@ -1,12 +1,12 @@
-package oo.Day_6;
+package oo.Day_9;
 
-public class Animal {
-    //attribute - state
+public class Animal{
     private String picture, food;
     private int hunger;
+    
 
     //method - behavior
-    public void makeNoise(){
+    protected void makeNoise(){
         System.out.println("Making noise ....");
     }
     protected void eat(){
